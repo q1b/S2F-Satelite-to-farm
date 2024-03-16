@@ -72,7 +72,12 @@
 				Make sure to fill the details for the field. The details will be used to extract the
 				satellite images.
 			</Dialog.Description>
-			<form action="/field/?/create" method="POST" use:enhance class="mt-6 flex flex-col gap-y-3">
+			<form action="/field/?/create" method="POST" use:enhance={async (e) => {
+				return async (e) => {
+					await e.update();
+					open = false;
+				}
+			}} class="mt-6 flex flex-col gap-y-3">
 				<div>
 					<Label>Crop Name</Label>
 					<Input name="crop-name" />
