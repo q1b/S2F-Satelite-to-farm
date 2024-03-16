@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1710532921582,
+      "tag": "0000_careful_mystique",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1710534805100,
+      "tag": "0001_calm_king_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1710544588781,
+      "tag": "0002_shallow_owl",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1710565306667,
+      "tag": "0003_curved_susan_delgado",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1710566024700,
+      "tag": "0004_sticky_venom",
+      "breakpoints": true
+    }
+  ]
+}
